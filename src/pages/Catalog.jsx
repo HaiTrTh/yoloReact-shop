@@ -1,7 +1,5 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react'
 import Helment from '../components/Helment'
-import Grid from '../components/Grid'
-import ProductCard from '../components/ProductCard'
 import productData from '../assets/fake-data/products'
 import category from '../assets/fake-data/category'
 import CheckBox from '../components/CheckBox'

@@ -6,15 +6,12 @@ import Home from '../pages/Home'
 import Catalog from '../pages/Catalog'
 import Cart from '../pages/Cart'
 import Product from '../pages/Product'
+import SignIn from '../pages/SignIn'
+import SignUp from '../pages/SignUp'
 
 const Routess = () => {
   return (
     <Switch>
-      {/* <Route path='/' exact element={<Home />} />
-      <Route path='/catalog/:slug' element={<Product />} />
-      <Route path='/catalog' element={<Catalog />} />
-      <Route path='/cart' element={<Cart />} /> */}
-
       <Route exact path="/">
         <Home />
       </Route>
@@ -27,7 +24,12 @@ const Routess = () => {
       <Route path="/cart">
         <Cart />
       </Route>
-
+      <Route path="/signin">
+        <SignIn />
+      </Route>
+      <Route path="/signup">
+        <SignUp />
+      </Route>
     </Switch>
   )
 }

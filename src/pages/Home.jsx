@@ -43,12 +43,10 @@ const Home = () => {
                 </Link>
               )
             }
-
           </Grid>
         </SectionBody>
       </Section>
       {/* end policy section */}
-
 
       {/* start selling section */}
       <Section>
@@ -73,9 +71,7 @@ const Home = () => {
                   price={Number(item.price)}
                   slug={item.slug}
                 />
-
               ))
-
             }
           </Grid>
 
@@ -110,7 +106,6 @@ const Home = () => {
 
             }
           </Grid>
-
         </SectionBody>
       </Section>
       {/* end selling section */}

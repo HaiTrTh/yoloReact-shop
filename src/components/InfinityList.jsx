@@ -29,7 +29,6 @@ const InfinityList = props => {
           setLoad(true)
         }
       }
-
     })
   }, [listRef])
 

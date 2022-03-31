@@ -3,7 +3,6 @@ import Helmet from '../components/Helment'
 import Section, { SectionBody, SectionTitle } from "../components/Section"
 import productData from '../assets/fake-data/products'
 import Grid from '../components/Grid'
-import ProductCard from '../components/ProductCard'
 
 const Product = (props) => {
 
